@@ -7,7 +7,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 import org.user.app.model.User;
-
+/*
+ * User dao service to access database
+ */
 @Repository
 public class UserDaoService {
 	private static List<User> userList = new ArrayList<User>();
@@ -22,7 +24,7 @@ public class UserDaoService {
 	public List<User> findUsers() {
 		return userList;
 	}
-//tdthdhdhdhdh
+
 	public User findUser(Integer id) {
 		for (User user : userList) {
 			if (user.getId().equals(id))
