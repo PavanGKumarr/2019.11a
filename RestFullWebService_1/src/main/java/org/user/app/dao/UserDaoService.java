@@ -8,7 +8,7 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 import org.user.app.model.User;
 /*
- * User dao service to access database
+ * User service to access database
  */
 @Repository
 public class UserDaoService {
